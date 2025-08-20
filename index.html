@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home - Ragul A</title>
+  <link rel="stylesheet" href="./styles.css">
+  <style>
+    h1 {
+      color: #0056b3;
+    }
+
+    /* Layout for experience + skills */
+    .content-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .experience, .skills {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    /* Skills section */
+    .skill {
+      margin-bottom: 15px;
+    }
+
+    .skill-name {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .progress-bar {
+      background: #e0e0e0;
+      border-radius: 25px;
+      overflow: hidden;
+      height: 20px;
+    }
+
+    .progress {
+      background: #0056b3;
+      height: 100%;
+      text-align: right;
+      padding-right: 8px;
+      color: white;
+      font-size: 12px;
+      line-height: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>RAGUL A</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="About.html">About</a>
+      <a href="Project.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <img src="./WhatsApp_Image_2025-08-14_at_09.12.45_4e19a525-removebg-preview.png" alt="Profile Picture" class="profile">
+    <h1>Welcome to My Portfolio</h1>
+    <p style="color:black;">
+      I specialize in building responsive, mobile-friendly websites that look great on any device.
+      I have hands-on experience with modern web technologies like HTML5, CSS3, JavaScript, and React.
+      I'm committed to writing clean, maintainable code and continuously improving my skills through learning and collaboration.
+    </p>
+
+    <!-- Two-column Layout -->
+    <div class="content-container">
+
+      <!-- Left: Experience -->
+      <div class="experience">
+        <h2>Experience</h2>
+        <p><strong>CLOUD COMPUTING</strong> – Spotnack Company (2024)</p>
+<ul>
+  <li>Deployed and managed applications on AWS using EC2, S3, and Lambda services.</li>
+  <li>Designed and implemented scalable cloud infrastructure with cost optimization strategies.</li>
+  <li>Configured and monitored cloud resources using AWS CloudWatch and IAM policies.</li>
+  <li>Worked on migration of on-premise applications to cloud environments for improved performance.</li>
+</ul>
+
+
+        <p><strong>Full Stack Web Developer</strong> ( Pinesphere Company 2025)</p>
+<ul>
+          <li>Developed responsive web pages using HTML, CSS, and JavaScript.</li>
+          <li>Worked closely with the design team to ensure pixel-perfect UI implementation.</li>
+          <li>Improved website performance by optimizing images and code structure.</li>
+        </ul>
+
+      </div>
+
+      <!-- Right: Skills -->
+      <div class="skills">
+        <h2>My Skills</h2>
+
+        <div class="skill">
+          <div class="skill-name">HTML</div>
+          <div class="progress-bar">
+            <div class="progress" style="width: 95%;">95%</div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">CSS</div>
+          <div class="progress-bar">
+            <div class="progress" style="width: 90%;">90%</div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">JavaScript</div>
+          <div class="progress-bar">
+            <div class="progress" style="width: 85%;">85%</div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">React</div>
+          <div class="progress-bar">
+            <div class="progress" style="width: 75%;">75%</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 RAGUL A. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
